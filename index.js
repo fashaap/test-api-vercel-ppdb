@@ -1911,12 +1911,12 @@ app.get('/', (req, res) => {
   )
 })
 
-// app.get(`${route}/ppdb/sumedang`, (req, res) => {
-//   const users = dataSumedang
-//   res.statusCode = 200;
-//   res.header("Content-Type", "application/json");
-//   res.send(JSON.stringify({ data: users }));
-// })
+app.get(`${route}/ppdb/sumedang`, (req, res) => {
+  const users = dataSumedang
+  res.statusCode = 200;
+  res.header("Content-Type", "application/json");
+  res.send(JSON.stringify({ data: users }));
+})
 
 app.get(`${route}/ppdb/cicalengka`, (req, res) => {
   const users = dataCicalengka
