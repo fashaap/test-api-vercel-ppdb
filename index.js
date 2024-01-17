@@ -3,7 +3,7 @@ const app = express()
 
 const PORT = 8000
 
-const data = [
+const dataSumedang = [
   {
     "code": 200,
     "status": "success",
@@ -734,6 +734,1171 @@ const data = [
   }
 ]
 
+const dataCicalengka = [
+  {
+    "code": 200,
+    "status": "success",
+    "message": "List Data",
+    "result": {
+      "itemsList": [
+        {
+          "registration_number": "20206109-6-100181",
+          "status": "accepted",
+          "distance1": 0,
+          "distance2": 0,
+          "distance3": 0,
+          "score": 484.72727272727275,
+          "score_a1": 0,
+          "score_a2": 0,
+          "score_a3": 0,
+          "score_kejuaraan": 0,
+          "score_ujikom": 0,
+          "first_option": {
+            "type": "prestasi-rapor",
+            "name": "SMAN 1 CICALENGKA - PRESTASI RAPOR",
+            "no_color_blind": false
+          },
+          "first_school": {
+            "type": "negeri",
+            "level": "sma",
+            "name": "SMAN 1 CICALENGKA",
+            "npsn": "20251792",
+            "address_city": "BANDUNG",
+            "coordinate_lat": "-6.9838000",
+            "coordinate_lng": "107.8420000"
+          },
+          "second_school": null,
+          "second_option": null,
+          "third_school": null,
+          "third_option": null,
+          "graduate_year": 2023,
+          "graduate_type": "smp",
+          "school": "SMPN 1 RANCAEKEK",
+          "name": "ABIGAIL CAROLINA TAMPUBOLON",
+          "created_at": "2023-06-08T07:07:05.181Z",
+          "accepted_option": {
+            "type": "prestasi-rapor",
+            "name": "SMAN 1 CICALENGKA - PRESTASI RAPOR"
+          },
+          "accepted_school": {
+            "type": "negeri",
+            "level": "sma",
+            "name": "SMAN 1 CICALENGKA",
+            "npsn": "20251792",
+            "address_city": "BANDUNG",
+            "coordinate_lat": "-6.9838000",
+            "coordinate_lng": "107.8420000"
+          },
+          "accepted_choice_current_position": 1,
+          "selection_current": 1
+        },
+        {
+          "registration_number": "20206202-5-100023",
+          "status": "accepted",
+          "distance1": 0,
+          "distance2": 0,
+          "distance3": 0,
+          "score": 425,
+          "score_a1": 0,
+          "score_a2": 0,
+          "score_a3": 0,
+          "score_kejuaraan": 425,
+          "score_ujikom": 425,
+          "first_option": {
+            "type": "prestasi",
+            "name": "SMAN 1 CICALENGKA - PRESTASI KEJUARAAN",
+            "no_color_blind": false
+          },
+          "first_school": {
+            "type": "negeri",
+            "level": "sma",
+            "name": "SMAN 1 CICALENGKA",
+            "npsn": "20251792",
+            "address_city": "BANDUNG",
+            "coordinate_lat": "-6.9838000",
+            "coordinate_lng": "107.8420000"
+          },
+          "second_school": null,
+          "second_option": null,
+          "third_school": null,
+          "third_option": null,
+          "graduate_year": 2023,
+          "graduate_type": "smp",
+          "school": "SMP FK. BINA MUDA",
+          "name": "NESHA KURNIA SARI",
+          "created_at": "2023-06-07T01:04:42.943Z",
+          "accepted_option": {
+            "type": "prestasi",
+            "name": "SMAN 1 CICALENGKA - PRESTASI KEJUARAAN"
+          },
+          "accepted_school": {
+            "type": "negeri",
+            "level": "sma",
+            "name": "SMAN 1 CICALENGKA",
+            "npsn": "20251792",
+            "address_city": "BANDUNG",
+            "coordinate_lat": "-6.9838000",
+            "coordinate_lng": "107.8420000"
+          },
+          "accepted_choice_current_position": 1,
+          "selection_current": 1
+        },
+        {
+          "registration_number": "20227686-9-200051",
+          "status": "accepted",
+          "distance1": 25.687,
+          "distance2": 6621.38,
+          "distance3": 99999,
+          "score": 0,
+          "score_a1": 0,
+          "score_a2": 0,
+          "score_a3": 0,
+          "score_kejuaraan": 0,
+          "score_ujikom": 0,
+          "selection_current": 1,
+          "tmp_selection_current": 0,
+          "first_option": {
+            "type": "zonasi",
+            "name": "SMAN 1 CICALENGKA - ZONASI",
+            "no_color_blind": false
+          },
+          "first_school": {
+            "type": "negeri",
+            "level": "sma",
+            "name": "SMAN 1 CICALENGKA",
+            "npsn": "20251792",
+            "address_city": "BANDUNG",
+            "coordinate_lat": "-6.9838000",
+            "coordinate_lng": "107.8420000"
+          },
+          "second_option": {
+            "type": "zonasi",
+            "name": "SMAN 1 NAGREG - ZONASI",
+            "no_color_blind": false
+          },
+          "second_school": {
+            "type": "negeri",
+            "level": "sma",
+            "name": "SMAN 1 NAGREG",
+            "npsn": "20227900",
+            "address_city": "BANDUNG",
+            "coordinate_lat": "-7.0186000",
+            "coordinate_lng": "107.8904000"
+          },
+          "third_school": null,
+          "third_option": null,
+          "graduate_year": 2023,
+          "graduate_type": "smp",
+          "school": "SMP MA ARIF CICALENGKA",
+          "name": "NAZHWA  AZZAHRA",
+          "created_at": "2023-06-26T03:35:34.743Z",
+          "accepted_option": {
+            "type": "zonasi",
+            "name": "SMAN 1 CICALENGKA - ZONASI"
+          },
+          "accepted_school": {
+            "type": "negeri",
+            "level": "sma",
+            "name": "SMAN 1 CICALENGKA",
+            "npsn": "20251792",
+            "address_city": "BANDUNG",
+            "coordinate_lat": "-6.9838000",
+            "coordinate_lng": "107.8420000"
+          },
+          "tmp_accepted_choice_current_position": 1,
+          "tmp_accepted_option": {
+            "type": "zonasi",
+            "name": "SMAN 1 CICALENGKA - ZONASI"
+          },
+          "tmp_accepted_school": {
+            "type": "negeri",
+            "level": "sma",
+            "name": "SMAN 1 CICALENGKA",
+            "npsn": "20251792",
+            "address_city": "BANDUNG",
+            "coordinate_lat": "-6.9838000",
+            "coordinate_lng": "107.8420000"
+          },
+          "accepted_choice_current_position": 1
+        },
+        {
+          "registration_number": "20206073-3-100013",
+          "status": "accepted",
+          "distance1": 122.678,
+          "distance2": 6658.413,
+          "distance3": 99999,
+          "score": 0,
+          "score_a1": 0,
+          "score_a2": 0,
+          "score_a3": 0,
+          "score_kejuaraan": 0,
+          "score_ujikom": 0,
+          "first_option": {
+            "type": "kondisi-tertentu",
+            "name": "SMAN 1 CICALENGKA - KONDISI TERTENTU",
+            "no_color_blind": false
+          },
+          "first_school": {
+            "type": "negeri",
+            "level": "sma",
+            "name": "SMAN 1 CICALENGKA",
+            "npsn": "20251792",
+            "address_city": "BANDUNG",
+            "coordinate_lat": "-6.9838000",
+            "coordinate_lng": "107.8420000"
+          },
+          "second_option": {
+            "type": "kondisi-tertentu",
+            "name": "SMAN 1 NAGREG - KONDISI TERTENTU",
+            "no_color_blind": false
+          },
+          "second_school": {
+            "type": "negeri",
+            "level": "sma",
+            "name": "SMAN 1 NAGREG",
+            "npsn": "20227900",
+            "address_city": "BANDUNG",
+            "coordinate_lat": "-7.0186000",
+            "coordinate_lng": "107.8904000"
+          },
+          "third_school": null,
+          "third_option": null,
+          "graduate_year": 2023,
+          "graduate_type": "smp",
+          "school": "SMPN 1 CICALENGKA",
+          "name": "RHAISYA TRI RHAMADANI",
+          "created_at": "2023-06-07T02:31:05.146Z",
+          "accepted_option": {
+            "type": "kondisi-tertentu",
+            "name": "SMAN 1 CICALENGKA - KONDISI TERTENTU"
+          },
+          "accepted_school": {
+            "type": "negeri",
+            "level": "sma",
+            "name": "SMAN 1 CICALENGKA",
+            "npsn": "20251792",
+            "address_city": "BANDUNG",
+            "coordinate_lat": "-6.9838000",
+            "coordinate_lng": "107.8420000"
+          },
+          "accepted_choice_current_position": 1,
+          "selection_current": 1
+        },
+        {
+          "registration_number": "20206202-2-100035",
+          "status": "accepted",
+          "distance1": 96.724,
+          "distance2": 6572.204,
+          "distance3": 99999,
+          "score": 0,
+          "score_a1": 0,
+          "score_a2": 0,
+          "score_a3": 0,
+          "score_kejuaraan": 0,
+          "score_ujikom": 0,
+          "first_option": {
+            "type": "ketm",
+            "name": "SMAN 1 CICALENGKA - KETM",
+            "no_color_blind": false
+          },
+          "first_school": {
+            "type": "negeri",
+            "level": "sma",
+            "name": "SMAN 1 CICALENGKA",
+            "npsn": "20251792",
+            "address_city": "BANDUNG",
+            "coordinate_lat": "-6.9838000",
+            "coordinate_lng": "107.8420000"
+          },
+          "second_option": {
+            "type": "ketm",
+            "name": "SMAN 1 NAGREG - KETM",
+            "no_color_blind": false
+          },
+          "second_school": {
+            "type": "negeri",
+            "level": "sma",
+            "name": "SMAN 1 NAGREG",
+            "npsn": "20227900",
+            "address_city": "BANDUNG",
+            "coordinate_lat": "-7.0186000",
+            "coordinate_lng": "107.8904000"
+          },
+          "third_school": null,
+          "third_option": null,
+          "graduate_year": 2023,
+          "graduate_type": "smp",
+          "school": "SMP FK. BINA MUDA",
+          "name": "NIZAR AKBAR MUDZAKIR",
+          "created_at": "2023-06-06T02:51:50.882Z",
+          "accepted_option": {
+            "type": "ketm",
+            "name": "SMAN 1 CICALENGKA - KETM"
+          },
+          "accepted_school": {
+            "type": "negeri",
+            "level": "sma",
+            "name": "SMAN 1 CICALENGKA",
+            "npsn": "20251792",
+            "address_city": "BANDUNG",
+            "coordinate_lat": "-6.9838000",
+            "coordinate_lng": "107.8420000"
+          },
+          "accepted_choice_current_position": 1,
+          "selection_current": 1
+        },
+        {
+          "registration_number": "69972422-4-100006",
+          "status": "accepted",
+          "distance1": 25.284,
+          "distance2": 99999,
+          "distance3": 99999,
+          "score": 0,
+          "score_a1": 0,
+          "score_a2": 0,
+          "score_a3": 0,
+          "score_kejuaraan": 0,
+          "score_ujikom": 0,
+          "first_option": {
+            "type": "perpindahan",
+            "name": "SMAN 1 CICALENGKA - PERPINDAHAN TUGAS ORTU / ANAK GURU",
+            "no_color_blind": false
+          },
+          "first_school": {
+            "type": "negeri",
+            "level": "sma",
+            "name": "SMAN 1 CICALENGKA",
+            "npsn": "20251792",
+            "address_city": "BANDUNG",
+            "coordinate_lat": "-6.9838000",
+            "coordinate_lng": "107.8420000"
+          },
+          "second_school": null,
+          "second_option": null,
+          "third_school": null,
+          "third_option": null,
+          "graduate_year": 2023,
+          "graduate_type": "smp",
+          "school": "SMP IT MATAHATI",
+          "name": "RAKHA PUTRA NUGRAHA",
+          "created_at": "2023-06-07T03:41:13.651Z",
+          "accepted_option": {
+            "type": "perpindahan",
+            "name": "SMAN 1 CICALENGKA - PERPINDAHAN TUGAS ORTU / ANAK GURU"
+          },
+          "accepted_school": {
+            "type": "negeri",
+            "level": "sma",
+            "name": "SMAN 1 CICALENGKA",
+            "npsn": "20251792",
+            "address_city": "BANDUNG",
+            "coordinate_lat": "-6.9838000",
+            "coordinate_lng": "107.8420000"
+          },
+          "priority": 1,
+          "accepted_choice_current_position": 1,
+          "selection_current": 1
+        },
+        {
+          "registration_number": "20206109-6-100182",
+          "status": "accepted",
+          "distance1": 0,
+          "distance2": 0,
+          "distance3": 0,
+          "score": 484.09090909090907,
+          "score_a1": 0,
+          "score_a2": 0,
+          "score_a3": 0,
+          "score_kejuaraan": 0,
+          "score_ujikom": 0,
+          "first_option": {
+            "type": "prestasi-rapor",
+            "name": "SMAN 1 CICALENGKA - PRESTASI RAPOR",
+            "no_color_blind": false
+          },
+          "first_school": {
+            "type": "negeri",
+            "level": "sma",
+            "name": "SMAN 1 CICALENGKA",
+            "npsn": "20251792",
+            "address_city": "BANDUNG",
+            "coordinate_lat": "-6.9838000",
+            "coordinate_lng": "107.8420000"
+          },
+          "second_school": null,
+          "second_option": null,
+          "third_school": null,
+          "third_option": null,
+          "graduate_year": 2023,
+          "graduate_type": "smp",
+          "school": "SMPN 1 RANCAEKEK",
+          "name": "JHONATHAN ZUNNIEL",
+          "created_at": "2023-06-08T07:19:35.244Z",
+          "accepted_option": {
+            "type": "prestasi-rapor",
+            "name": "SMAN 1 CICALENGKA - PRESTASI RAPOR"
+          },
+          "accepted_school": {
+            "type": "negeri",
+            "level": "sma",
+            "name": "SMAN 1 CICALENGKA",
+            "npsn": "20251792",
+            "address_city": "BANDUNG",
+            "coordinate_lat": "-6.9838000",
+            "coordinate_lng": "107.8420000"
+          },
+          "accepted_choice_current_position": 2,
+          "selection_current": 1
+        },
+        {
+          "registration_number": "20235588-4-100013",
+          "status": "accepted",
+          "distance1": 25.359,
+          "distance2": 99999,
+          "distance3": 99999,
+          "score": 0,
+          "score_a1": 0,
+          "score_a2": 0,
+          "score_a3": 0,
+          "score_kejuaraan": 0,
+          "score_ujikom": 0,
+          "first_option": {
+            "type": "perpindahan",
+            "name": "SMAN 1 CICALENGKA - PERPINDAHAN TUGAS ORTU / ANAK GURU",
+            "no_color_blind": false
+          },
+          "first_school": {
+            "type": "negeri",
+            "level": "sma",
+            "name": "SMAN 1 CICALENGKA",
+            "npsn": "20251792",
+            "address_city": "BANDUNG",
+            "coordinate_lat": "-6.9838000",
+            "coordinate_lng": "107.8420000"
+          },
+          "second_school": null,
+          "second_option": null,
+          "third_school": null,
+          "third_option": null,
+          "graduate_year": 2023,
+          "graduate_type": "smp",
+          "school": "SMP NEGERI 1 CIMANGGUNG",
+          "name": "AJIE MAULANA AKBAR",
+          "created_at": "2023-06-07T03:16:36.930Z",
+          "accepted_option": {
+            "type": "perpindahan",
+            "name": "SMAN 1 CICALENGKA - PERPINDAHAN TUGAS ORTU / ANAK GURU"
+          },
+          "accepted_school": {
+            "type": "negeri",
+            "level": "sma",
+            "name": "SMAN 1 CICALENGKA",
+            "npsn": "20251792",
+            "address_city": "BANDUNG",
+            "coordinate_lat": "-6.9838000",
+            "coordinate_lng": "107.8420000"
+          },
+          "priority": 1,
+          "accepted_choice_current_position": 2,
+          "selection_current": 1
+        },
+        {
+          "registration_number": "20206073-5-100062",
+          "status": "accepted",
+          "distance1": 5280.208,
+          "distance2": 3593.967,
+          "distance3": 99999,
+          "score": 365,
+          "score_a1": 0,
+          "score_a2": 0,
+          "score_a3": 0,
+          "score_kejuaraan": 365,
+          "score_ujikom": 365,
+          "first_option": {
+            "type": "prestasi",
+            "name": "SMAN 1 CICALENGKA - PRESTASI KEJUARAAN",
+            "no_color_blind": false
+          },
+          "first_school": {
+            "type": "negeri",
+            "level": "sma",
+            "name": "SMAN 1 CICALENGKA",
+            "npsn": "20251792",
+            "address_city": "BANDUNG",
+            "coordinate_lat": "-6.9838000",
+            "coordinate_lng": "107.8420000"
+          },
+          "second_option": null,
+          "second_school": null,
+          "third_school": null,
+          "third_option": null,
+          "graduate_year": 2023,
+          "graduate_type": "smp",
+          "school": "SMPN 1 CICALENGKA",
+          "name": "DARA JUNIA RAHMA",
+          "created_at": "2023-06-06T01:45:05.723Z",
+          "accepted_option": {
+            "type": "prestasi",
+            "name": "SMAN 1 CICALENGKA - PRESTASI KEJUARAAN"
+          },
+          "accepted_school": {
+            "type": "negeri",
+            "level": "sma",
+            "name": "SMAN 1 CICALENGKA",
+            "npsn": "20251792",
+            "address_city": "BANDUNG",
+            "coordinate_lat": "-6.9838000",
+            "coordinate_lng": "107.8420000"
+          },
+          "accepted_choice_current_position": 2,
+          "selection_current": 1
+        },
+        {
+          "registration_number": "20206073-9-200471",
+          "status": "accepted",
+          "distance1": 34.207,
+          "distance2": 99999,
+          "distance3": 99999,
+          "score": 0,
+          "score_a1": 0,
+          "score_a2": 0,
+          "score_a3": 0,
+          "score_kejuaraan": 0,
+          "score_ujikom": 0,
+          "selection_current": 1,
+          "tmp_selection_current": 0,
+          "first_option": {
+            "type": "zonasi",
+            "name": "SMAN 1 CICALENGKA - ZONASI",
+            "no_color_blind": false
+          },
+          "first_school": {
+            "type": "negeri",
+            "level": "sma",
+            "name": "SMAN 1 CICALENGKA",
+            "npsn": "20251792",
+            "address_city": "BANDUNG",
+            "coordinate_lat": "-6.9838000",
+            "coordinate_lng": "107.8420000"
+          },
+          "second_school": null,
+          "second_option": null,
+          "third_school": null,
+          "third_option": null,
+          "graduate_year": 2023,
+          "graduate_type": "smp",
+          "school": "SMPN 1 CICALENGKA",
+          "name": "MUHAMMAD BAGUS RAHMAN",
+          "created_at": "2023-07-04T05:55:42.777Z",
+          "accepted_option": {
+            "type": "zonasi",
+            "name": "SMAN 1 CICALENGKA - ZONASI"
+          },
+          "accepted_school": {
+            "type": "negeri",
+            "level": "sma",
+            "name": "SMAN 1 CICALENGKA",
+            "npsn": "20251792",
+            "address_city": "BANDUNG",
+            "coordinate_lat": "-6.9838000",
+            "coordinate_lng": "107.8420000"
+          },
+          "tmp_accepted_choice_current_position": 2,
+          "tmp_accepted_option": {
+            "type": "zonasi",
+            "name": "SMAN 1 CICALENGKA - ZONASI"
+          },
+          "tmp_accepted_school": {
+            "type": "negeri",
+            "level": "sma",
+            "name": "SMAN 1 CICALENGKA",
+            "npsn": "20251792",
+            "address_city": "BANDUNG",
+            "coordinate_lat": "-6.9838000",
+            "coordinate_lng": "107.8420000"
+          },
+          "accepted_choice_current_position": 2
+        },
+        {
+          "registration_number": "20206202-2-100030",
+          "status": "accepted",
+          "distance1": 168.349,
+          "distance2": 6538.321,
+          "distance3": 99999,
+          "score": 0,
+          "score_a1": 0,
+          "score_a2": 0,
+          "score_a3": 0,
+          "score_kejuaraan": 0,
+          "score_ujikom": 0,
+          "first_option": {
+            "type": "ketm",
+            "name": "SMAN 1 CICALENGKA - KETM",
+            "no_color_blind": false
+          },
+          "first_school": {
+            "type": "negeri",
+            "level": "sma",
+            "name": "SMAN 1 CICALENGKA",
+            "npsn": "20251792",
+            "address_city": "BANDUNG",
+            "coordinate_lat": "-6.9838000",
+            "coordinate_lng": "107.8420000"
+          },
+          "second_option": {
+            "type": "ketm",
+            "name": "SMAN 1 NAGREG - KETM",
+            "no_color_blind": false
+          },
+          "second_school": {
+            "type": "negeri",
+            "level": "sma",
+            "name": "SMAN 1 NAGREG",
+            "npsn": "20227900",
+            "address_city": "BANDUNG",
+            "coordinate_lat": "-7.0186000",
+            "coordinate_lng": "107.8904000"
+          },
+          "third_school": null,
+          "third_option": null,
+          "graduate_year": 2023,
+          "graduate_type": "smp",
+          "school": "SMP FK. BINA MUDA",
+          "name": "SYAKIRA NURFAUZIYAH",
+          "created_at": "2023-06-06T01:48:28.996Z",
+          "accepted_option": {
+            "type": "ketm",
+            "name": "SMAN 1 CICALENGKA - KETM"
+          },
+          "accepted_school": {
+            "type": "negeri",
+            "level": "sma",
+            "name": "SMAN 1 CICALENGKA",
+            "npsn": "20251792",
+            "address_city": "BANDUNG",
+            "coordinate_lat": "-6.9838000",
+            "coordinate_lng": "107.8420000"
+          },
+          "accepted_choice_current_position": 2,
+          "selection_current": 1
+        },
+        {
+          "registration_number": "20206073-3-100017",
+          "status": "accepted",
+          "distance1": 339.469,
+          "distance2": 99999,
+          "distance3": 99999,
+          "score": 410.54545454545456,
+          "score_a1": 0,
+          "score_a2": 0,
+          "score_a3": 0,
+          "score_kejuaraan": 0,
+          "score_ujikom": 0,
+          "first_option": {
+            "type": "kondisi-tertentu",
+            "name": "SMAN 1 CICALENGKA - KONDISI TERTENTU",
+            "no_color_blind": false
+          },
+          "first_school": {
+            "type": "negeri",
+            "level": "sma",
+            "name": "SMAN 1 CICALENGKA",
+            "npsn": "20251792",
+            "address_city": "BANDUNG",
+            "coordinate_lat": "-6.9838000",
+            "coordinate_lng": "107.8420000"
+          },
+          "second_option": null,
+          "second_school": null,
+          "third_school": null,
+          "third_option": null,
+          "graduate_year": 2023,
+          "graduate_type": "smp",
+          "school": "SMPN 1 CICALENGKA",
+          "name": "AISYAH NUR AMINI",
+          "created_at": "2023-06-07T06:10:03.872Z",
+          "accepted_option": {
+            "type": "kondisi-tertentu",
+            "name": "SMAN 1 CICALENGKA - KONDISI TERTENTU"
+          },
+          "accepted_school": {
+            "type": "negeri",
+            "level": "sma",
+            "name": "SMAN 1 CICALENGKA",
+            "npsn": "20251792",
+            "address_city": "BANDUNG",
+            "coordinate_lat": "-6.9838000",
+            "coordinate_lng": "107.8420000"
+          },
+          "accepted_choice_current_position": 2,
+          "selection_current": 1
+        },
+        {
+          "registration_number": "20206073-3-100010",
+          "status": "accepted",
+          "distance1": 352.578,
+          "distance2": 99999,
+          "distance3": 99999,
+          "score": 0,
+          "score_a1": 0,
+          "score_a2": 0,
+          "score_a3": 0,
+          "score_kejuaraan": 0,
+          "score_ujikom": 0,
+          "first_option": {
+            "type": "kondisi-tertentu",
+            "name": "SMAN 1 CICALENGKA - KONDISI TERTENTU",
+            "no_color_blind": false
+          },
+          "first_school": {
+            "type": "negeri",
+            "level": "sma",
+            "name": "SMAN 1 CICALENGKA",
+            "npsn": "20251792",
+            "address_city": "BANDUNG",
+            "coordinate_lat": "-6.9838000",
+            "coordinate_lng": "107.8420000"
+          },
+          "second_school": null,
+          "second_option": null,
+          "third_school": null,
+          "third_option": null,
+          "graduate_year": 2023,
+          "graduate_type": "smp",
+          "school": "SMPN 1 CICALENGKA",
+          "name": "MUHAMMAD EVAN FAUZI",
+          "created_at": "2023-06-06T03:58:51.026Z",
+          "accepted_option": {
+            "type": "kondisi-tertentu",
+            "name": "SMAN 1 CICALENGKA - KONDISI TERTENTU"
+          },
+          "accepted_school": {
+            "type": "negeri",
+            "level": "sma",
+            "name": "SMAN 1 CICALENGKA",
+            "npsn": "20251792",
+            "address_city": "BANDUNG",
+            "coordinate_lat": "-6.9838000",
+            "coordinate_lng": "107.8420000"
+          },
+          "accepted_choice_current_position": 3,
+          "selection_current": 1
+        },
+        {
+          "registration_number": "20206109-6-100183",
+          "status": "accepted",
+          "distance1": 0,
+          "distance2": 0,
+          "distance3": 0,
+          "score": 482.5454545454545,
+          "score_a1": 0,
+          "score_a2": 0,
+          "score_a3": 0,
+          "score_kejuaraan": 0,
+          "score_ujikom": 0,
+          "first_option": {
+            "type": "prestasi-rapor",
+            "name": "SMAN 1 CICALENGKA - PRESTASI RAPOR",
+            "no_color_blind": false
+          },
+          "first_school": {
+            "type": "negeri",
+            "level": "sma",
+            "name": "SMAN 1 CICALENGKA",
+            "npsn": "20251792",
+            "address_city": "BANDUNG",
+            "coordinate_lat": "-6.9838000",
+            "coordinate_lng": "107.8420000"
+          },
+          "second_option": {
+            "type": "prestasi-rapor",
+            "name": "SMAN 1 RANCAEKEK - PRESTASI RAPOR",
+            "no_color_blind": false
+          },
+          "second_school": {
+            "type": "negeri",
+            "level": "sma",
+            "name": "SMAN 1 RANCAEKEK",
+            "npsn": "20254054",
+            "address_city": "BANDUNG",
+            "coordinate_lat": "-6.9600000",
+            "coordinate_lng": "107.7657000"
+          },
+          "third_school": null,
+          "third_option": null,
+          "graduate_year": 2023,
+          "graduate_type": "smp",
+          "school": "SMPN 1 RANCAEKEK",
+          "name": "EKA FEBRYANTI",
+          "created_at": "2023-06-08T07:50:28.823Z",
+          "accepted_option": {
+            "type": "prestasi-rapor",
+            "name": "SMAN 1 CICALENGKA - PRESTASI RAPOR"
+          },
+          "accepted_school": {
+            "type": "negeri",
+            "level": "sma",
+            "name": "SMAN 1 CICALENGKA",
+            "npsn": "20251792",
+            "address_city": "BANDUNG",
+            "coordinate_lat": "-6.9838000",
+            "coordinate_lng": "107.8420000"
+          },
+          "accepted_choice_current_position": 3,
+          "selection_current": 1
+        },
+        {
+          "registration_number": "20206073-9-200359",
+          "status": "accepted",
+          "distance1": 40.411,
+          "distance2": 3717.229,
+          "distance3": 99999,
+          "score": 0,
+          "score_a1": 0,
+          "score_a2": 0,
+          "score_a3": 0,
+          "score_kejuaraan": 0,
+          "score_ujikom": 0,
+          "selection_current": 1,
+          "tmp_selection_current": 0,
+          "first_option": {
+            "type": "zonasi",
+            "name": "SMAN 1 CICALENGKA - ZONASI",
+            "no_color_blind": false
+          },
+          "first_school": {
+            "type": "negeri",
+            "level": "sma",
+            "name": "SMAN 1 CICALENGKA",
+            "npsn": "20251792",
+            "address_city": "BANDUNG",
+            "coordinate_lat": "-6.9838000",
+            "coordinate_lng": "107.8420000"
+          },
+          "second_school": {
+            "type": "negeri",
+            "level": "sma",
+            "name": "SMAN CIMANGGUNG",
+            "npsn": "20235621",
+            "address_city": "SUMEDANG",
+            "coordinate_lat": "-6.9572000",
+            "coordinate_lng": "107.8211000"
+          },
+          "second_option": {
+            "type": "zonasi",
+            "name": "SMAN CIMANGGUNG - ZONASI",
+            "no_color_blind": false
+          },
+          "third_school": null,
+          "third_option": null,
+          "graduate_year": 2023,
+          "graduate_type": "smp",
+          "school": "SMPN 1 CICALENGKA",
+          "name": "SHAKIRA RAHAYU NUGRAHA",
+          "created_at": "2023-06-26T03:25:23.498Z",
+          "accepted_option": {
+            "type": "zonasi",
+            "name": "SMAN 1 CICALENGKA - ZONASI"
+          },
+          "accepted_school": {
+            "type": "negeri",
+            "level": "sma",
+            "name": "SMAN 1 CICALENGKA",
+            "npsn": "20251792",
+            "address_city": "BANDUNG",
+            "coordinate_lat": "-6.9838000",
+            "coordinate_lng": "107.8420000"
+          },
+          "tmp_accepted_choice_current_position": 3,
+          "tmp_accepted_option": {
+            "type": "zonasi",
+            "name": "SMAN 1 CICALENGKA - ZONASI"
+          },
+          "tmp_accepted_school": {
+            "type": "negeri",
+            "level": "sma",
+            "name": "SMAN 1 CICALENGKA",
+            "npsn": "20251792",
+            "address_city": "BANDUNG",
+            "coordinate_lat": "-6.9838000",
+            "coordinate_lng": "107.8420000"
+          },
+          "accepted_choice_current_position": 3
+        },
+        {
+          "registration_number": "20206202-2-100037",
+          "status": "accepted",
+          "distance1": 174.235,
+          "distance2": 99999,
+          "distance3": 99999,
+          "score": 0,
+          "score_a1": 0,
+          "score_a2": 0,
+          "score_a3": 0,
+          "score_kejuaraan": 0,
+          "score_ujikom": 0,
+          "first_option": {
+            "type": "ketm",
+            "name": "SMAN 1 CICALENGKA - KETM",
+            "no_color_blind": false
+          },
+          "first_school": {
+            "type": "negeri",
+            "level": "sma",
+            "name": "SMAN 1 CICALENGKA",
+            "npsn": "20251792",
+            "address_city": "BANDUNG",
+            "coordinate_lat": "-6.9838000",
+            "coordinate_lng": "107.8420000"
+          },
+          "second_school": null,
+          "second_option": null,
+          "third_school": null,
+          "third_option": null,
+          "graduate_year": 2023,
+          "graduate_type": "smp",
+          "school": "SMP FK. BINA MUDA",
+          "name": "AUFYA MICKYALA BILQIST",
+          "created_at": "2023-06-06T03:07:14.936Z",
+          "accepted_option": {
+            "type": "ketm",
+            "name": "SMAN 1 CICALENGKA - KETM"
+          },
+          "accepted_school": {
+            "type": "negeri",
+            "level": "sma",
+            "name": "SMAN 1 CICALENGKA",
+            "npsn": "20251792",
+            "address_city": "BANDUNG",
+            "coordinate_lat": "-6.9838000",
+            "coordinate_lng": "107.8420000"
+          },
+          "accepted_choice_current_position": 3,
+          "selection_current": 1
+        },
+        {
+          "registration_number": "20206073-4-100039",
+          "status": "accepted",
+          "distance1": 28.521,
+          "distance2": 99999,
+          "distance3": 99999,
+          "score": 0,
+          "score_a1": 0,
+          "score_a2": 0,
+          "score_a3": 0,
+          "score_kejuaraan": 0,
+          "score_ujikom": 0,
+          "first_option": {
+            "type": "perpindahan",
+            "name": "SMAN 1 CICALENGKA - PERPINDAHAN TUGAS ORTU / ANAK GURU",
+            "no_color_blind": false
+          },
+          "first_school": {
+            "type": "negeri",
+            "level": "sma",
+            "name": "SMAN 1 CICALENGKA",
+            "npsn": "20251792",
+            "address_city": "BANDUNG",
+            "coordinate_lat": "-6.9838000",
+            "coordinate_lng": "107.8420000"
+          },
+          "second_school": null,
+          "second_option": null,
+          "third_school": null,
+          "third_option": null,
+          "graduate_year": 2023,
+          "graduate_type": "smp",
+          "school": "SMPN 1 CICALENGKA",
+          "name": "KAYIN MAULANA FITZKY",
+          "created_at": "2023-06-09T01:00:11.768Z",
+          "accepted_option": {
+            "type": "perpindahan",
+            "name": "SMAN 1 CICALENGKA - PERPINDAHAN TUGAS ORTU / ANAK GURU"
+          },
+          "accepted_school": {
+            "type": "negeri",
+            "level": "sma",
+            "name": "SMAN 1 CICALENGKA",
+            "npsn": "20251792",
+            "address_city": "BANDUNG",
+            "coordinate_lat": "-6.9838000",
+            "coordinate_lng": "107.8420000"
+          },
+          "priority": 1,
+          "accepted_choice_current_position": 3,
+          "selection_current": 1
+        },
+        {
+          "registration_number": "20206073-5-100045",
+          "status": "accepted",
+          "distance1": 0,
+          "distance2": 0,
+          "distance3": 0,
+          "score": 355,
+          "score_a1": 0,
+          "score_a2": 0,
+          "score_a3": 0,
+          "score_kejuaraan": 355,
+          "score_ujikom": 355,
+          "first_option": {
+            "type": "prestasi",
+            "name": "SMAN 1 CICALENGKA - PRESTASI KEJUARAAN",
+            "no_color_blind": false
+          },
+          "first_school": {
+            "type": "negeri",
+            "level": "sma",
+            "name": "SMAN 1 CICALENGKA",
+            "npsn": "20251792",
+            "address_city": "BANDUNG",
+            "coordinate_lat": "-6.9838000",
+            "coordinate_lng": "107.8420000"
+          },
+          "second_school": null,
+          "second_option": null,
+          "third_school": null,
+          "third_option": null,
+          "graduate_year": 2023,
+          "graduate_type": "smp",
+          "school": "SMPN 1 CICALENGKA",
+          "name": "M GERIN GUNAWAN",
+          "created_at": "2023-06-06T11:11:35.766Z",
+          "accepted_option": {
+            "type": "prestasi",
+            "name": "SMAN 1 CICALENGKA - PRESTASI KEJUARAAN"
+          },
+          "accepted_school": {
+            "type": "negeri",
+            "level": "sma",
+            "name": "SMAN 1 CICALENGKA",
+            "npsn": "20251792",
+            "address_city": "BANDUNG",
+            "coordinate_lat": "-6.9838000",
+            "coordinate_lng": "107.8420000"
+          },
+          "accepted_choice_current_position": 3,
+          "selection_current": 1
+        },
+        {
+          "registration_number": "20206073-3-100016",
+          "status": "accepted",
+          "distance1": 395.53,
+          "distance2": 99999,
+          "distance3": 99999,
+          "score": 421.2727272727273,
+          "score_a1": 0,
+          "score_a2": 0,
+          "score_a3": 0,
+          "score_kejuaraan": 0,
+          "score_ujikom": 0,
+          "first_option": {
+            "type": "kondisi-tertentu",
+            "name": "SMAN 1 CICALENGKA - KONDISI TERTENTU",
+            "no_color_blind": false
+          },
+          "first_school": {
+            "type": "negeri",
+            "level": "sma",
+            "name": "SMAN 1 CICALENGKA",
+            "npsn": "20251792",
+            "address_city": "BANDUNG",
+            "coordinate_lat": "-6.9838000",
+            "coordinate_lng": "107.8420000"
+          },
+          "second_school": null,
+          "second_option": null,
+          "third_school": null,
+          "third_option": null,
+          "graduate_year": 2023,
+          "graduate_type": "smp",
+          "school": "SMPN 1 CICALENGKA",
+          "name": "NIHAL HAYYINA JAHDA NAFI'I",
+          "created_at": "2023-06-06T02:45:47.499Z",
+          "accepted_option": {
+            "type": "kondisi-tertentu",
+            "name": "SMAN 1 CICALENGKA - KONDISI TERTENTU"
+          },
+          "accepted_school": {
+            "type": "negeri",
+            "level": "sma",
+            "name": "SMAN 1 CICALENGKA",
+            "npsn": "20251792",
+            "address_city": "BANDUNG",
+            "coordinate_lat": "-6.9838000",
+            "coordinate_lng": "107.8420000"
+          },
+          "accepted_choice_current_position": 4,
+          "selection_current": 1
+        },
+        {
+          "registration_number": "20206058-2-100026",
+          "status": "accepted",
+          "distance1": 237.196,
+          "distance2": 99999,
+          "distance3": 99999,
+          "score": 0,
+          "score_a1": 0,
+          "score_a2": 0,
+          "score_a3": 0,
+          "score_kejuaraan": 0,
+          "score_ujikom": 0,
+          "first_option": {
+            "type": "ketm",
+            "name": "SMAN 1 CICALENGKA - KETM",
+            "no_color_blind": false
+          },
+          "first_school": {
+            "type": "negeri",
+            "level": "sma",
+            "name": "SMAN 1 CICALENGKA",
+            "npsn": "20251792",
+            "address_city": "BANDUNG",
+            "coordinate_lat": "-6.9838000",
+            "coordinate_lng": "107.8420000"
+          },
+          "second_school": null,
+          "second_option": null,
+          "third_school": null,
+          "third_option": null,
+          "graduate_year": 2023,
+          "graduate_type": "smp",
+          "school": "SMP YADIKA 1 CICALENGKA",
+          "name": "RILFA SAHARANI",
+          "created_at": "2023-06-10T03:47:10.906Z",
+          "accepted_option": {
+            "type": "ketm",
+            "name": "SMAN 1 CICALENGKA - KETM"
+          },
+          "accepted_school": {
+            "type": "negeri",
+            "level": "sma",
+            "name": "SMAN 1 CICALENGKA",
+            "npsn": "20251792",
+            "address_city": "BANDUNG",
+            "coordinate_lat": "-6.9838000",
+            "coordinate_lng": "107.8420000"
+          },
+          "accepted_choice_current_position": 4,
+          "selection_current": 1
+        }
+      ],
+      "paginator": {
+        "itemCount": 408,
+        "perPage": 20,
+        "pageCount": 21,
+        "currentPage": 1,
+        "slNo": 1,
+        "hasPrevPage": false,
+        "hasNextPage": true,
+        "prev": null,
+        "next": 2
+      }
+    }
+  }
+]
+
+export default data
+
 const route = "/api"
 
 app.get('/', (req, res) => {
@@ -749,7 +1914,14 @@ app.get('/', (req, res) => {
 })
 
 app.get(`${route}/ppdb/sumedang`, (req, res) => {
-  const user = data
+  const user = dataSumedang
+  res.statusCode = 200;
+  res.header("Content-Type", "application/json");
+  res.send(JSON.stringify({ data: user }));
+})
+
+app.get(`${route}/ppdb/cicalengka`, (req, res) => {
+  const user = dataCicalengka
   res.statusCode = 200;
   res.header("Content-Type", "application/json");
   res.send(JSON.stringify({ data: user }));
