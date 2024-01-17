@@ -734,7 +734,21 @@ const data = [
   }
 ]
 
+const route = "/api"
+
 app.get('/', (req, res) => {
+  res.statusCode = 200;
+  res.header("Content-Type", "application/json");
+  res.send(
+    {
+      status: "success",
+      message: "Selamat Datang Di API Ppdb",
+      github: "https://github.com/fashaap.com"
+    }
+  )
+})
+
+app.get(`${route}/ppdb/sumedang`, (req, res) => {
   const user = data
   res.statusCode = 200;
   res.header("Content-Type", "application/json");
