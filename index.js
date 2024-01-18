@@ -1893,7 +1893,7 @@ const dataCicalengka = [
 
 const route = "/api"
 
-app.get('/', (req, res) => {
+app.get('/', ( req, res) => {
   res.status = 200;
   res.header("Content-Type", "application/json");
   res.send(
@@ -1906,7 +1906,7 @@ app.get('/', (req, res) => {
   )
 })
 
-const render = (users, res, res) => {
+const render = (users, res) => {
   try {
     res.status = 200;
     res.header("Content-Type", "application/json");
@@ -1918,12 +1918,12 @@ const render = (users, res, res) => {
 
 app.get(`${route}/ppdb/sumedang`, (req, res) => {
   const users = dataSumedang
-  render(users, res, res)
+  render(users, res)
 })
 
 app.get(`${route}/ppdb/cicalengka`, (req, res) => {
   const users = dataCicalengka
-  render(users, res, res)
+  render(users, res)
 })
 
 app.listen(PORT, () => console.log(`App listening on port http://localhost:${PORT}`))
