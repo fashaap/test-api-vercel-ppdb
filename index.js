@@ -1904,7 +1904,8 @@ app.get('/', (req, res) => {
   res.header("Content-Type", "application/json");
   res.send(
     {
-      status: "success",
+      status: "OK",
+      code: 200,
       message: "Selamat Datang Di API Ppdb",
       github: "https://github.com/fashaap.com"
     }
@@ -1915,14 +1916,14 @@ app.get(`${route}/ppdb/sumedang`, (req, res) => {
   const users = dataSumedang
   res.status = 200;
   res.header("Content-Type", "application/json");
-  res.send(JSON.stringify({ data: users }));
+  res.send(JSON.stringify({status: "OK", code: 200, data: users }));
 })
 
 app.get(`${route}/ppdb/cicalengka`, (req, res) => {
   const users = dataCicalengka
   res.status = 200;
   res.header("Content-Type", "application/json");
-  res.send(JSON.stringify({ data: users }));
+  res.send(JSON.stringify({status: "OK", code: 200, data: users }));
 })
 
 app.listen(PORT, () => console.log(`App listening on port http://localhost:${PORT}`))
