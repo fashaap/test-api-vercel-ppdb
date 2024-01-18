@@ -1907,23 +1907,28 @@ app.get('/', ( req, res) => {
 })
 
 const render = (users, res) => {
-  try {
-    res.status = 200;
-    res.header("Content-Type", "application/json");
-    res.send(JSON.stringify({status: "success", code: 200, message: "list data", data: users }));
-  } catch (error) {
-    res.send(JSON.stringify({status: "error", code: 500, message: error }))
-  }
+  res.status = 200;
+  res.header("Content-Type", "application/json");
+  res.send(JSON.stringify({status: "success", code: 200, message: "list data", data: users }));
 }
 
-app.get(`${route}/ppdb/sumedang`, (req, res) => {
-  const users = dataSumedang
-  render(users, res)
-})
+app.get(`${route}/ppdb/sumedang`, async (req, res) => {
+  try {
+    const users = await dataSumedang;
+    render(users, res);
+  } catch (error) {
+    res.status(500).json({ status: "error", code: 500, message: error.message });
+  }
+});
 
-app.get(`${route}/ppdb/cicalengka`, (req, res) => {
-  const users = dataCicalengka
-  render(users, res)
+
+app.get(`${route}/ppdb/cicalengka`, async (req, res) => {
+  try {
+    const users = await dataSumedang;
+    render(users, res);
+  } catch (error) {
+    res.status(500).json({ status: "error", code: 500, message: error.message });
+  }
 })
 
 app.listen(PORT, () => console.log(`App listening on port http://localhost:${PORT}`))
