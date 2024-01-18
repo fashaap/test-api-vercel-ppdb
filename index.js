@@ -1894,12 +1894,10 @@ const dataCicalengka = [
 const route = "/api"
 
 app.get('/', ( req, res) => {
-  res.status = 200;
   res.header("Content-Type", "application/json");
   res.send(
     {
-      status: "success",
-      code: 200,
+      status: "200",
       message: "Selamat Datang Di API Ppdb",
       github: "https://github.com/fashaap.com"
     }
@@ -1907,9 +1905,8 @@ app.get('/', ( req, res) => {
 })
 
 const render = (users, res) => {
-  res.status = 200;
   res.header("Content-Type", "application/json");
-  res.send(JSON.stringify({status: "success", code: 200, message: "list data", data: users }));
+  res.send(JSON.stringify({status: "200", message: "list data", data: users }));
 }
 
 app.get(`${route}/ppdb/sumedang`, async (req, res) => {
