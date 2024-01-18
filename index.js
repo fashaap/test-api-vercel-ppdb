@@ -1906,18 +1906,24 @@ app.get('/', (req, res) => {
   )
 })
 
+const render = (users, res, res) => {
+  try {
+    res.status = 200;
+    res.header("Content-Type", "application/json");
+    res.send(JSON.stringify({status: "success", code: 200, message: "list data", data: users }));
+  } catch (error) {
+    res.send(JSON.stringify({status: "error", code: 500, message: error }))
+  }
+}
+
 app.get(`${route}/ppdb/sumedang`, (req, res) => {
   const users = dataSumedang
-  res.status = 200;
-  res.header("Content-Type", "application/json");
-  res.send(JSON.stringify({status: "success", code: 200, message: "list data", data: users }));
+  render(users, res, res)
 })
 
 app.get(`${route}/ppdb/cicalengka`, (req, res) => {
   const users = dataCicalengka
-  res.status = 200;
-  res.header("Content-Type", "application/json");
-  res.send(JSON.stringify({status: "success", code: 200, message: "list data", data: users }));
+  render(users, res, res)
 })
 
 app.listen(PORT, () => console.log(`App listening on port http://localhost:${PORT}`))
