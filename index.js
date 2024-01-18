@@ -1921,7 +1921,7 @@ app.get(`${route}/ppdb/sumedang`, async (req, res) => {
 
 app.get(`${route}/ppdb/cicalengka`, async (req, res) => {
   try {
-    const users = await dataSumedang;
+    const users = await dataCicalengka;
     render(users, res);
   } catch (error) {
     res.status(500).json({ status: "error", code: 500, message: error.message });
