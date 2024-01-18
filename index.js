@@ -1906,7 +1906,7 @@ app.get('/', ( req, res) => {
 
 const render = (users, res) => {
   res.header("Content-Type", "application/json");
-  res.send(JSON.stringify({status: 200, message: "list data", data: users }));
+  res.status(200).json({status: 200, message: "list data", data: users });
 }
 
 app.get(`${route}/ppdb/sumedang`, async (req, res) => {
