@@ -1897,7 +1897,7 @@ app.get('/', ( req, res) => {
   res.header("Content-Type", "application/json");
   res.send(
     {
-      status: "200",
+      status: 200,
       message: "Selamat Datang Di API Ppdb",
       github: "https://github.com/fashaap.com"
     }
