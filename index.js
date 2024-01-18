@@ -5,9 +5,6 @@ const PORT = 8000
 
 const dataSumedang = [
   {
-    "code": 200,
-    "status": "success",
-    "message": "List Data",
     "result": {
       "itemsList": [
         {
@@ -736,9 +733,6 @@ const dataSumedang = [
 
 const dataCicalengka = [
   {
-    "code": 200,
-    "status": "success",
-    "message": "List Data",
     "result": {
       "itemsList": [
         {
@@ -1904,7 +1898,7 @@ app.get('/', (req, res) => {
   res.header("Content-Type", "application/json");
   res.send(
     {
-      status: "OK",
+      status: "success",
       code: 200,
       message: "Selamat Datang Di API Ppdb",
       github: "https://github.com/fashaap.com"
@@ -1916,14 +1910,14 @@ app.get(`${route}/ppdb/sumedang`, (req, res) => {
   const users = dataSumedang
   res.status = 200;
   res.header("Content-Type", "application/json");
-  res.send(JSON.stringify({status: "OK", code: 200, data: users }));
+  res.send(JSON.stringify({status: "success", code: 200, message: "list data", data: users }));
 })
 
 app.get(`${route}/ppdb/cicalengka`, (req, res) => {
   const users = dataCicalengka
   res.status = 200;
   res.header("Content-Type", "application/json");
-  res.send(JSON.stringify({status: "OK", code: 200, data: users }));
+  res.send(JSON.stringify({status: "success", code: 200, message: "list data", data: users }));
 })
 
 app.listen(PORT, () => console.log(`App listening on port http://localhost:${PORT}`))
